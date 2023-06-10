@@ -1,3 +1,6 @@
+/* 
+    Это область отвечает за "голову" сайта
+*/
 header {
   background-color: #f2f2f2;
   padding: 20px;
@@ -35,8 +38,18 @@ nav ul li a:hover {
     color: #fff;
 }
 
-#header_logo {
+/* 
+    Это область отвечает за главный контент на этой странице
+*/
 
-    clip: rect(20);
-    
+.MainContent {
+
+    padding-inline: 10%;
+
+}
+
+.SimpleText{
+
+    font-size: 30px;
+
 }
