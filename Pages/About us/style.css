@@ -2,54 +2,58 @@
     Это область отвечает за "голову" сайта
 */
 header {
-  background-color: #f2f2f2;
-  padding: 20px;
-
-  display: flex;
-  align-items: center;
-}
-
-nav {
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-nav ul li a:hover {
-    background-color: #3cff00;
-    color: #fff;
-}
-
-/* 
-    Это область отвечает за главный контент на этой странице
-*/
-
-.MainContent {
-
-    padding-inline: 10%;
-
-}
-
-.SimpleText{
-
-    font-size: 30px;
-
-}
+    background-color: #f2f2f2; /* Устанавливает фоновый цвет для элемента header */
+    padding: 20px; /* Добавляет отступы вокруг содержимого элемента header */
+    display: flex; /* Создает гибкий контейнер Flexbox */
+    align-items: center; /* Выравнивает элементы по вертикали внутри header */
+  }
+  
+  nav {
+    padding: 20px; /* Добавляет отступы вокруг содержимого элемента nav */
+    text-align: center; /* Выравнивает текст по центру внутри nav */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Удаляет маркеры списка у элемента ul */
+    margin: 0; /* Устанавливает отступы вокруг элемента ul */
+    padding: 0; /* Устанавливает внутренние отступы для элемента ul */
+  }
+  
+  nav ul li {
+    display: inline; /* Располагает элементы списка горизонтально */
+    margin-right: 10px; /* Устанавливает отступ справа для элементов списка */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Удаляет подчеркивание ссылок */
+    color: #333; /* Устанавливает цвет текста для ссылок */
+    padding: 5px 10px; /* Добавляет отступы вокруг текста ссылок */
+    border: 1px solid #ccc; /* Устанавливает границу для ссылок */
+    border-radius: 4px; /* Закругляет углы границы ссылок */
+  }
+  
+  nav ul li a:hover {
+    background-color: #3cff00; /* Изменяет фоновый цвет ссылки при наведении на нее курсора */
+    color: #fff; /* Изменяет цвет текста ссылки при наведении на нее курсора */
+  }
+  
+  /* 
+      Это область отвечает за главный контент на этой странице
+  */
+  
+  .MainContent {
+    padding-inline: 10%; /* Добавляет отступы внутри элемента .MainContent */
+  }
+  
+  .SimpleText {
+    font-size: 30px; /* Устанавливает размер шрифта для элемента .SimpleText */
+  }
+  
+  .CompanyPlusElement {
+    padding-inline: 30px; /* Добавляет отступы внутри элемента .CompanyPlusElement */
+    margin-bottom: 30px; /* Устанавливает отступ снизу для элемента .CompanyPlusElement */
+    background-color: #ffff08; /* Устанавливает фоновый цвет для элемента .CompanyPlusElement */
+    border: 1px solid black; /* Устанавливает границу для элемента .CompanyPlusElement */
+    border-radius: 24px; /* Закругляет углы границы элемента .CompanyPlusElement */
+  }
+  
